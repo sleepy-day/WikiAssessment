@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "serve": "esbuild app.tsx --outdir=www/js --bundle --servedir=www --serve=9009 --serve-fallback=www/index.html --loader:.js=jsx"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@types/react-router-dom": "^5.3.3"
+  },
+  "dependencies": {
+    "@tiptap/core": "^2.8.0",
+    "@tiptap/extension-color": "^2.8.0",
+    "@tiptap/extension-document": "^2.8.0",
+    "@tiptap/extension-placeholder": "^2.8.0",
+    "@tiptap/react": "^2.8.0",
+    "@tiptap/starter-kit": "^2.8.0",
+    "esbuild": "^0.24.0",
+    "react-router-dom": "^6.27.0",
+    "universal-cookie": "^7.2.1"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

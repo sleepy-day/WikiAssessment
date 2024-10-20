@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "scripts": {
+      "start": "webpack --mode development",
+      "build": "webpack --mode production",
+    },
+    "paths": {
+      "@tiptap/core": [
+        "./node_modules/@tiptap/core/src/index",
+      ]
+    }
+  }
+}
